@@ -1,0 +1,96 @@
+:root {
+    --darkest: #52734d;
+    --darker: #91c788;
+    --lighter: #ddffbc;
+    --lightest: #feffde;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    box-shadow: 1px 1px 4px 1px;
+    background-color: var(--lightest);
+}
+
+figure {
+    background-color: var(--lightest);
+}
+
+figcaption {
+    line-height: 40px;
+}
+
+form {
+    padding-bottom: 50px;
+}
+
+h1 {
+    background-color: var(--lightest);
+    line-height: 75px;
+}
+
+h2 {
+    line-height: 50px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border: 3px solid var(--darker);
+}
+
+input {
+    background-color: var(--lightest);
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+header {
+    border-bottom: 5px solid var(--darker);
+}
+
+header,
+footer {
+    line-height: 40px;
+    background-color: var(--darkest);
+    color: var(--lightest);
+}
+
+.blockDisplay {
+    display: block;
+}
+
+.contact {
+    background-color: var(--lighter);
+    border-top: 3px solid var(--darker);
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/* Id Selectors */
+#container {
+    border: 2px solid var(--darker);
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+}
